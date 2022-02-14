@@ -1,0 +1,19 @@
+.boxTemplate {
+  background-color: #1f3540;
+  border-radius: 5px;
+  width: 60px;
+  height: 60px;
+  box-shadow: 1px 3px 0 0 #182024;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.boxCross {
+  font-size: 20px;
+}
+
+.boxCircle {
+  font-size: 30px;
+}

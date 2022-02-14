@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.mainContainer {
+  width: 100vw;
+  height: 100vh;
+  background-color: #192a32;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.gameTitle {
+  position: absolute;
+  top: 50px;
+  font-size: 50px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+.gameTitleText1 {
+  color: #31c4be;
+  margin-right: 15px;
+}
+.gameTitleText2 {
+  color: #a8bec9;
+}
+.gameTitleText3 {
+  color: #f0b237;
+  margin-left: 15px;
+}
+
+.gameBox {
+  /* width: 400px;
+  height: 400px; */
+  background-color: #192a32;
+}
+
+.menuBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.turn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1f3540;
+  padding: 4px 8px;
+  border-radius: 5px;
+  box-shadow: 1px 3px 0 0 #182024;
+}
+.turnText {
+  margin-left: 5px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+.reset {
+  background-color: #859ba5;
+  padding: 4px;
+  border-radius: 4px;
+  box-shadow: 1px 3px 0 0 #182024;
+  cursor: pointer;
+}
+
+.gridBox {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 10px;
+  row-gap: 10px;
+}
+
+.score {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.scoreBox {
+  width: 60px;
+  height: 40px;
+  border-radius: 4px;
+  box-shadow: 1px 2px 0 0 #182024;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.player1ScoreBox {
+  background-color: #31c4be;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.tieScoreBox {
+  background-color: #a8bec9;
+}
+.player2ScoreBox {
+  background-color: #f0b237;
+}
+
+.playerName {
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.winnerName {
+  position: absolute;
+  bottom: 100px;
+  font-size: 30px;
+  color: #31c4be;
+}
